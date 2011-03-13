@@ -1,0 +1,28 @@
+vShield Powershell cmdlets
+
+
+These are still in development. Use at your own risk.
+
+
+Current cmdlets:
+
+Get-vSERules - Retrieves Firewall rules from vSE (Can work with Set-vSERules if you Get-vSERules | Export-CSV)
+Set-vSERules - Sets vSE Firewall rules from a CSV file.
+
+For usage information, use get-help <cmdlet>
+
+to import these, just use dot-sourcing, like so:
+
+. .\Get-vSERules
+
+or
+
+. 'C:\users\foo\Get-vSERules'
+
+
+Any questions:
+
+Twitter: @jakerobinson
+
+Submit bugs/issues to the Github page.
+https://github.com/jakerobinson/vShield-Powershell/issues
